@@ -1,0 +1,17 @@
+.listContainer {
+  margin: 60px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+@media (max-width: 767px) {
+  .listContainer {
+    margin: 20px 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+}

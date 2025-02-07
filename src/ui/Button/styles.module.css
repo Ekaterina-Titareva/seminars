@@ -1,0 +1,44 @@
+.button {
+  cursor: pointer;
+  transition: all 0.2s;
+  width: 100%;
+}
+
+.contained {
+  padding: 12px 18px;
+  color: var(--Text-White-1000-color);
+  background-color: var(--Brand-Primary-1000-color);
+  border-radius: 8px;
+}
+
+.contained:hover {
+  color: var(--Brand-Primary-1000-color);
+  background-color: var(--Text-White-1000-color);
+}
+
+.outlined {
+  padding: 12px 18px;
+  color: var(--Text-Black-1000-color);
+  background-color: transparent;
+  border: 1px solid var(--Text-Black-1000-color);
+  border-radius: 8px;
+}
+
+.outlined:hover {
+  color: var(--Brand-Primary-1000-color);
+  border: 1px solid var(--Brand-Primary-1000-color);
+}
+
+.text {
+  color: var(--Brand-Primary-1000-color);
+}
+
+.text:hover {
+  color: var(--Brand-Primary-800-color);
+}
+
+.disabled,
+.disabled:hover {
+  cursor: unset;
+  color: var(--Text-Black-500-color);
+}

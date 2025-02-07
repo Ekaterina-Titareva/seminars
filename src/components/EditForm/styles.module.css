@@ -1,0 +1,44 @@
+.wrapper {
+  max-height: 80vh;
+  margin: 30px;
+  color: var(--Text-Black-1000-color);
+  overflow: auto;
+}
+
+.title {
+  color: var(--Text-Black-1000-color);
+  text-align: center;
+}
+
+.form {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  gap: 8px;
+}
+
+.formItem {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+textarea {
+  width: 100%;
+  padding: 8px 12px;
+  color: var(--Text-Black-900-color);
+  background-color: var(--Text-White-1000-color);
+  border-radius: 8px;
+  min-height: 48px;
+}
+
+.error {
+  color: var(--Error-State-Color);
+  font-size: 12px;
+}
+@media (max-width: 768px) {
+  .wrapper {
+    margin: 16px;
+  }
+}
